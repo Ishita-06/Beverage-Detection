@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['7up', 'Beverages', 'Coke', 'fanta', 'pepsi']
+
+roboflow:
+  workspace: ishita-shivhare-nip6q
+  project: beverage-detection-lwm1p
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ishita-shivhare-nip6q/beverage-detection-lwm1p/dataset/1
